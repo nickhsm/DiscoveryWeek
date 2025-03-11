@@ -13,6 +13,10 @@ def audio():
                                       )
         submit_button = st.form_submit_button(label="Start")
 
+        if audio_path is not None:
+            with open(audio_path.name, "wb") as file_in_ram:
+                file_in_ram.write(audio_path.getbuffer())
+            
     if submit_button:
-        results = audio_processing.audio_process(audio_path)
+        results = audio_processing.audio_process(audio_path.name)
         st.write(results)
