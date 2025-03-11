@@ -1,0 +1,8 @@
+0 Boreal Owl
+1 Eastern Barn Owl
+2 Eastern Screech Owl
+3 Great Horned Owl
+4 Northern Saw-Whet Owl
+5 Flammulated Owl
+6 Rusty Barred Owl
+7 Western Screech Owl
