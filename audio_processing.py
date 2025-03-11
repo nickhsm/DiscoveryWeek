@@ -42,4 +42,4 @@ def audio_process(audio_path):
         # Insert to dictionary
         dictionary_of_results[name] = score
 
-    print(dictionary_of_results)
+    return dictionary_of_results
