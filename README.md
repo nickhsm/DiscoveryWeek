@@ -1,13 +1,14 @@
 # DiscoveryWeek project
-Voor ons project hebben we gekozen om een AI modellen te maken dat vogels kan herkennen op basis van geluid of beeld.
-Gebruikers kunnen dan audio fragmenten uploaden om geanalyseerd te worden door onze AI model. Het zelfde met een afbeelding.
+Voor ons Discovery Week project hebben we gekozen om een website te maken die vogels kan herkennen. Hiervoor hebben we een AI model getraind met foto's en geluiden van verschillende uilensoorten
 ## Limitaties
-Het AI model is alleen getrained op het onderstaande vogels:
-- [x] Boreal owl
-- [ ] Eastern barn owl
-- [ ] Eastern screen owl
-- [ ] Great horned owl
-- [ ] Northern saw-when owl
-- [ ] Rusty barred owl
-- [ ] Snowy owl
-- [ ] Western screench owl
+Het AI model is getraind met foto's en geluiden van volgende uilensoorten:
+- Boreal Owl
+- Eastern Barn owl
+- Eastern screen owl
+- Flammulated owl
+- Great horned owl
+- Northern Saw-when owl
+- Rusty Barred owl
+- Western screench owl
+## Compatibiliteit
+Gebruik Python versie 3.11. voor compatibiliteit.
