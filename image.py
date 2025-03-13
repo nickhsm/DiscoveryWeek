@@ -49,11 +49,11 @@ def image_process():
         confidence_score = prediction[0][index]
 
         # Toon de voorspelling en confidence score
-        st.write(f"Voorspelde vogelsoort: {class_name.strip()}")
+        st.write(f"Voorspelde uilsoort: {class_name.strip()}")
         st.write(f"Zekerheid: {confidence_score:.2f}")
 
 
 # Aanroepen van de functie binnen Streamlit
 if __name__ == "__main__":
-    st.title("Vogelherkenning met AI")
+    st.title("Uilherkenning met AI")
     image_process()
