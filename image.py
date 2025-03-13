@@ -7,10 +7,10 @@ import streamlit as st  # Voor de Streamlit componenten
 np.set_printoptions(suppress=True)
 
 # Load the model
-model = load_model("keras_Model.h5", compile=False)
+model = load_model("models/image/keras_model.h5", compile=False)
 
 # Load the labels
-class_names = open("labels.txt", "r").readlines()
+class_names = open("models/image/labels.txt", "r").readlines()
 
 
 def image_process():
@@ -49,7 +49,7 @@ def image_process():
         confidence_score = prediction[0][index]
 
         # Toon de voorspelling en confidence score
-        st.write(f"Voorspelde uilsoort: {class_name.strip()}")
+        st.write(f"Voorspelde uilsoort: {class_name.strip()[2:]}")
         st.write(f"Zekerheid: {confidence_score:.2f}")
 
 
