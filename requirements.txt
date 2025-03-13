@@ -1,5 +1,6 @@
 # Frontend
 streamlit
+keras
 
 # Image
 tensorflow==2.13.1
