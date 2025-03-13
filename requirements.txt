@@ -1,3 +1,9 @@
-tensorflow==2.13.1
+# Frontend
 streamlit
 keras
+
+# Image
+tensorflow==2.13.1
+# Audio
+tflite-runtime
+tflite-support

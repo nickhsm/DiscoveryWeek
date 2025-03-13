@@ -1,0 +1,9 @@
+0 Achtergrondruis
+1 boreal owl
+2 eastern barn owl
+3 eastern screech owl
+4 flammulated owl
+5 great horned owl
+6 northern saw-whet owl
+7 rusty barred owl
+8 western screech owl
