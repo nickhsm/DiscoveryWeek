@@ -49,7 +49,7 @@ def image_process():
         confidence_score = prediction[0][index]
 
         # Toon de voorspelling en confidence score
-        st.write(f"Voorspelde uilsoort: {class_name.strip()}")
+        st.write(f"Voorspelde uilsoort: {class_name.strip()[2:]}")
         st.write(f"Zekerheid: {confidence_score:.2f}")
 
 
