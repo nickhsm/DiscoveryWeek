@@ -4,11 +4,11 @@ Voor ons Discovery Week project hebben we gekozen om een website te maken die vo
 Het AI model is getraind met foto's en geluiden van volgende uilensoorten:
 - Boreal Owl
 - Eastern Barn owl
-- Eastern screen owl
+- Eastern screech owl
 - Flammulated owl
 - Great horned owl
 - Northern Saw-when owl
 - Rusty Barred owl
-- Western screench owl
+- Western screech owl
 ## Compatibiliteit
 Gebruik Python versie 3.11. voor compatibiliteit.
